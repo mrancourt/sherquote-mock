@@ -1,0 +1,50 @@
+ {
+  "connect": {
+    "status": 200,
+    "message": "connected" 
+  },
+  "start": {
+    "status": 200,
+    "message": "started" 
+  },
+  "stop": {
+    "status": 200,
+    "message": "stopped" 
+  },
+  "status": {
+    "Active": true,
+    "Algorithm": "algorithm",
+    "Ticker": "ticker",
+    "StreamQuotes": true,
+    "Params": {"some": "params"},
+    "StartedAt": "&now"
+  },
+  "orders": [
+    {
+      "id": 173577870,
+      "totalQuantity": 100,
+      "openQuantity": 100,
+      "filledQuantity": 0,
+      "canceledQuantity": 0,
+      "side": "Buy",
+      "state": "Canceled",
+      "avgExecPrice": 0,
+      "updateTime": "&now"
+    }
+  ],
+  "position": [
+    {
+      "openQuantity": 100,
+      "currentMarketValue": 6017,
+      "currentPrice": 60.17,
+      "averageEntryPrice": 60.23,
+      "openPnL": -6,
+      "closedPnL": 0
+    }
+  ],
+  "streaming": {
+    "orders": {
+      "streaming": true
+    }
+  }
+}
